@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://troy9748.github.io</id>
     <title>Liu Xiaohui</title>
-    <updated>2020-06-07T10:55:30.962Z</updated>
+    <updated>2020-06-07T10:58:27.392Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://troy9748.github.io"/>
     <link rel="self" href="https://troy9748.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://troy9748.github.io/images/avatar.png</logo>
     <icon>https://troy9748.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Liu Xiaohui</rights>
+    <entry>
+        <title type="html"><![CDATA[今天新建了一个网页]]></title>
+        <id>https://troy9748.github.io/post/jin-tian-xin-jian-liao-yi-ge-wang-ye/</id>
+        <link href="https://troy9748.github.io/post/jin-tian-xin-jian-liao-yi-ge-wang-ye/">
+        </link>
+        <updated>2020-06-07T10:57:03.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://troy9748.github.io/post-images/1591527490176.jpg" alt="" loading="lazy">就是这样</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://troy9748.github.io/post/hello-gridea/</id>
