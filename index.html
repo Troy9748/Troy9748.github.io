@@ -3,6 +3,34 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Home
+title: 首页
+heading: "刘晓辉 · Xiaohui Liu"
+subheading: "科研 · 写作 · 摄影 · 音乐"
 banner: "/assets/images/banners/home.jpeg"
 ---
+
+<section class="home-intro" aria-labelledby="home-intro-title">
+  <p class="eyebrow">个人档案 / PERSONAL ARCHIVE</p>
+  <h2 id="home-intro-title">在研究与生活之间，持续记录。</h2>
+  <p>这里收录我的科研成果与笔记，也保存摄影、随笔和弹唱视频。你可以从主题入口浏览，或使用内容页按关键词、类型和时间查找。</p>
+</section>
+
+<nav class="content-portals" aria-label="内容分类">
+  <a href="{{ '/explore/?type=research' | relative_url }}"><span>01</span><strong>科研成果</strong><small>论文、项目与学术活动</small></a>
+  <a href="{{ '/explore/?type=notes' | relative_url }}"><span>02</span><strong>科研笔记</strong><small>方法、阅读与实验记录</small></a>
+  <a href="{{ '/explore/?type=essay' | relative_url }}"><span>03</span><strong>随笔</strong><small>观察、思考与日常</small></a>
+  <a href="{{ '/explore/?type=photography' | relative_url }}"><span>04</span><strong>摄影</strong><small>照片与拍摄手记</small></a>
+  <a href="{{ '/explore/?type=music' | relative_url }}"><span>05</span><strong>音乐</strong><small>弹唱与练习片段</small></a>
+</nav>
+
+<div class="section-heading">
+  <div>
+    <p class="eyebrow">RECENT UPDATES</p>
+    <h2>最近更新</h2>
+  </div>
+  <a href="{{ '/explore/' | relative_url }}">搜索与排序 →</a>
+</div>
+
+{% if site.posts.size == 0 %}
+<p class="empty-state">内容正在整理中。第一篇文章发布后会自动出现在这里。</p>
+{% endif %}

@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: WELCOME!
+title: 刘晓辉 · Xiaohui Liu
 email: lxh9748@163.com
 author: Xiaohui LIU
 
@@ -40,15 +40,13 @@ author: Xiaohui LIU
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Unpublished Work (cleft) 2023-{currentYear} {author}"
+copyright: "Copyright © 2024-{currentYear} {author}"
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  刘晓辉的个人网站：记录科研成果、科研笔记、随笔、摄影作品与音乐视频。
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://www.lxh9748.fun"
 favicon: "" # the favicon for your site
 
 # Yat date format
@@ -63,17 +61,17 @@ yat:
 # header_transparent: true
 
 # If you want to change the content width, you can set to another value
-# content_width: "920px"
+content_width: "1040px"
 
 # Google analytics - GA4
 # google_analytics: [Measurement ID]
 # enableDNT: "false"
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+sitemap: true
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+lang: "zh-CN"
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -108,7 +106,7 @@ yat:
 # spacegrey: #353535
 # snowwhite: #ffffff
 #
-# theme_color: snowwhite
+theme_color: snowwhite
 #
 # Custom color as below:
 # theme_color: "#882250"
@@ -119,7 +117,7 @@ yat:
 # greatgold: #f2cb05
 # greenblue: #389092
 #
-# brand_color: orangered
+brand_color: "#315d73"
 #
 # Custom color as below:
 # brand_color: "#1a8e42"
@@ -140,7 +138,7 @@ yat:
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
+night_mode: "manual"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
@@ -152,12 +150,10 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+  - index.html
+  - explore.html
+  - about.html
 
 # Page default value
 # defaults:
@@ -183,27 +179,27 @@ yat:
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
 
 # Excerpt settings
-# excerpt:
-#   default_image: /assets/images/default-image.jpeg  # Default image when the image style is not none
-#   image_style: z          # Image layout style (It's value could be none, left, right, top, z, z-reverse)
-#   image_width: 38.2%      # Image default width
-#   image_height: 160px     # Image default height
-#   text_size: 350          # Words default size
+excerpt:
+  default_image: /assets/images/default-image.jpeg
+  image_style: z
+  image_width: 38.2%
+  image_height: 180px
+  text_size: 220
 
 # Pagination setting
-# paginate: 5
+paginate: 8
 
 # Photo previewer settings (PhotoSwipe 5)
 # the options please refer to: https://photoswipe.com/options/
-# photo_previewer:
-#  gallery: "section.main"
-#  children: "a.photo-swipe"
-#  bgOpacity: 0.8
-#  padding:
-#    top: 20
-#    bottom: 40
-#    left: 100
-#    right: 100
+photo_previewer:
+  gallery: "section.main"
+  children: "a.photo-swipe"
+  bgOpacity: 0.9
+  padding:
+    top: 20
+    bottom: 40
+    left: 24
+    right: 24
 
 # Click to top settings
 # click_to_top:
